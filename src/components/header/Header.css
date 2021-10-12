@@ -1,0 +1,17 @@
+.header-container{
+    width:100%;
+    height:80px;
+    border-bottom: 1px solid gray;
+    background-color:#423B44 ;
+}
+
+.siteName{
+    width:fit-content;
+   height: 100%;
+   margin: 0 auto;
+}
+
+.siteName h2{
+    padding:20% 0;
+    color: aliceblue;
+}

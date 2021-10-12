@@ -1,0 +1,99 @@
+*{
+    margin:0px;
+    padding:0px;
+
+    border:none;
+    outline:none;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.card{
+    width: 600px;
+    height:400px;
+    background-color: #92b3c7;
+    border: 1px solid #022633;
+    box-shadow: 4px 3px 4px #565d5f;
+    margin:10vh auto;
+    border-radius: 20px;
+
+}
+
+
+.inner-card{
+    width:80%;
+    height:300px;
+    padding: 20px;
+    border:1px solid #322C3C;
+    margin: 0px auto;
+    background-color: #322C3C;
+    box-shadow: 4px 4px 8px;
+
+    border-radius: 20px;
+    /* align-items: center; */
+}
+
+.skip-btn{
+    color: #E7DEDE;
+    font-size: .8em;
+    align-items: center;
+    position: relative;
+    left:80%;
+    outline: none;
+    border: none;
+    width:50px;
+    height: 30px;
+    border-radius: 30px;
+    padding: 5px;
+    margin:10px 0px;
+    background-color:#4F4B4B;
+}
+
+
+.avatar-image{
+    width:80px;
+    height:80px;
+    position: relative;
+    top: -55px;
+    margin:0px auto;
+}
+
+.avatar-image img{
+    width:100%;
+    height:100%
+}
+
+
+.inner-card input{
+    width:100%;
+    border-radius: 30px;
+    height:40px;
+    padding:20px;
+    margin:5px auto;
+    
+}
+
+.submit-btn{
+    width:100%;
+    height:50px;
+    padding:10px;
+    font-size:1em;
+    color: #F3F3F3;
+    border-radius: 33px;
+    margin:10px auto;
+    background-color: #086C80;
+}
+
+/* When the width of the screen decreases below 600px */
+
+@media only screen and (max-width: 600px) {
+    .card{
+       width:90vw;
+    }
+    .inner-card{
+        max-width:80%;
+        height:300px;
+        padding: 10px;
+    }
+}
